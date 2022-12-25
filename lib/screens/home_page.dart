@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Quapni measure'),
+        title: Text('image picker'),
       ),
       body: const Center(
         child: Text('Body Text'),
