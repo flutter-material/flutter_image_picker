@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
         // imageQuality: 90,
       );
       setState(() async {
-        // 多照照片選取只拿第一張
+        // 多張照片選取只拿第一張
         List<XFile>? imageFileList =
             pickedFile == null ? null : <XFile>[pickedFile];
         File imageFile = File(imageFileList![0].path);
